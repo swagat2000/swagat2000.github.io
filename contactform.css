@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    background-color:blue;  
+    border:none;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+  
+}
+body{
+     background-image: url(https://i.pinimg.com/originals/0a/03/74/0a0374a68220376bc288d298ddf06aa3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin:0;
+     padding:0;     
+ }
+ form{
+    background-color: rgb(131, 238, 229);
+    border: none;
+    width:100%;
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: auto ;
+    margin-top: 90px;
+    position:center;
+    box-shadow: 10px black;
+    border-radius: 10px;
+}   
+.wrapper{
+    padding-left: 45px;
+    padding-right: 45px;
+} 
+#name{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:190px;
+    }
+#check{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:92px;
+    }
+#number {
+    border-radius: 3px;
+    margin-left: 2px;
+    width:150px;
+    }
+#mail{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:164px; 
+    
+    } 
+#sug{
+    border-radius: 3px;
+}
+#birth{
+    border-radius: 3px;
+    margin-left: 2px;
+    width:135px; 
+}
+.sub{
+     padding-left: 60px;
+}
+#sb{
+    background-color:rgb(30, 95, 192);;
+    border-radius: 5px;
+}
+#rs{
+    background-color: rgb(30, 95, 192);;
+    border-radius: 5px;
+    
+}
+@media screen and (max-width:460px){
+   body{
+       margin: 20px auto 0;
+   }
+}
