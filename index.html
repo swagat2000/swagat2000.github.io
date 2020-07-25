@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactform.css">
+   
+    <title>CONTACT FORM</title>
+</head>
+<body>
+   
+    <form id="contactform">
+        <h1>CONTACT FORM FOR COVID-19</h1>
+        <div class="wrapper">
+            <div>
+                 Name*: <input type="text" id="name" placeholder="  Full name">
+            </div>
+            <br>
+            <div>
+            Contact No.*:<input type="number" id="number" placeholder="Phone number" maxlength="10">
+            </div>
+            <br>
+            <div>
+                Email ID*:
+                <input type="email" id="mail" placeholder="Email id">
+            </div><br>
+            <div>
+                <label>Are you feeling well*:</label>
+                <select name="G" id="check">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    </select>
+            </div><br>
+            <div>
+                Date Of Birth*: <input type="date" name="dob" id="birth">
+            </div> <br>
+            <div>
+                Do you want to give any suggestion?:</br><textarea rows="3" cols="30" id="sug" placeholder="Please write your suggestions"></textarea>
+            </div>
+            <br>
+            <div class="sub">
+                <input type="submit" id="sb" value="Submit">
+                <input type="reset" id="rs" value="reset">
+            </div>
+            <br><br>
+        </div>
+
+        </form>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+        <script src="contactform.js"></script>
+</body>
+</html>
