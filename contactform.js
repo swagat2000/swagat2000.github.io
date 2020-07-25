@@ -21,7 +21,7 @@
 
 
 
-document.getElementById('wrapper').addEventListener('submit',submitform());
+document.getElementById('contactform').addEventListener('submit',submitform());
 
 // submit form
 
